@@ -30,9 +30,9 @@ end
 
 def valid_phone_number?(phone)
 condition = phone.match(/.\d{3}.\d{3}.\d{4}\b|\d{3}\d{3}\d{4}\b|\d{3}\s\d{3}\s\d{4}\b |.\d{3}.\d{3}\d{4}\b/)
-if condition = nil
-  return false
-else
+if condition = false
   return true
+else
+  return false
   end
-end 
+end
