@@ -24,4 +24,4 @@ end
 
 def valid_phone_number?(phone)
 phone.match(/\d\d\d.\d\d\d.\d\d\d\d/)
-  end
+end
