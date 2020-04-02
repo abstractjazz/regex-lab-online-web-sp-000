@@ -25,8 +25,7 @@ elsif text.scan(/^[A-Z].+/)
 else
   end
 end
-  
-else
+
 
 def valid_phone_number?(phone)
 phone.match(/\d\d\d.\d\d\d.\d\d\d\d/)
