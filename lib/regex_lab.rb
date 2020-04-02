@@ -19,13 +19,14 @@ text.scan(/\b\w{5}\b/)
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-if text.scan(/^[A-Z].+/)
-  return true
-elsif(/^[A-Z].+/) == nil
+if text.scan(/^[A-Z].+/) == nil
   return false
+elsif text.scan(/^[A-Z].+/)
 else
   end
 end
+  
+else
 
 def valid_phone_number?(phone)
 phone.match(/\d\d\d.\d\d\d.\d\d\d\d/)
