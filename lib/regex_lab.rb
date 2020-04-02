@@ -23,7 +23,8 @@ if text.scan(/\b[A-Z].+\W/)
   return true
 else
   return false
-end
+  end
+end 
 
 def valid_phone_number?(phone)
 phone.match(/\d\d\d.\d\d\d.\d\d\d\d/)
