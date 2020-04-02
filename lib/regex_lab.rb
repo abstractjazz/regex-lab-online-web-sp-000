@@ -33,5 +33,6 @@ condition = phone.match(/.\d{3}.\d{3}.\d{4}\b|\d{3}\d{3}\d{4}\b|\d{3}\s\d{3}\s\d
 if condition = nil
   return false
 else
-  return true 
+  return true
 end
+end 
