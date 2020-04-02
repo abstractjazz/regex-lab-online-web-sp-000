@@ -15,7 +15,7 @@ text.scan(/\bun\w+ing\b/)
 
 
 def words_five_letters_long(text)
-if text.scan(/\b\w{5}\b/) = true
+if text.scan(/\b\w{5}\b/)
   return true
 else
   return false
