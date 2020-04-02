@@ -31,8 +31,8 @@ end
 def valid_phone_number?(phone)
 condition = phone.match(/d{3}.\d{3}.\d{4}./)
 if condition = nil
-  return false 
-else 
+  return false
+else
   return true
   end
 end 
