@@ -23,7 +23,7 @@ else
 end
 
 def first_word_capitalized_and_ends_with_punctuation?(text)
-text.grep(/^[A-Z]./)
+text.scan(/^[A-Z]./)
 end
 
 def valid_phone_number?(phone)
